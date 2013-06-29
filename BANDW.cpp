@@ -1,4 +1,4 @@
-// ALGO : adhoc
+// AC , ALGO : adhoc
 
 #include<cstdio>
 #include<cstring>
