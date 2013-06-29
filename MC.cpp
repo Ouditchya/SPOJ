@@ -7,7 +7,7 @@ using namespace std ;
 
 int main( )
 {
-  char x[2000] , y[2000] ;
+  	char x[2000] , y[2000] ;
 	int i , j , m , n , lcs_len ;
 
 	while( scanf("%s",x) , strcmp( x , "#" ) )
