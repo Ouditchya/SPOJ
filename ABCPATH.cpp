@@ -15,8 +15,10 @@ int main( )
 	int r , c , i , j , x , y , a[50][50] , max , cs = 1 ;
 	// m1 & m2 are arrays holding all possibilities of traversal in 2D array except (0,0)
 	int m1[] = {-1,0,1,1,1,0,-1,-1} , m2[] = {-1,-1,-1,0,1,1,1,0} ;
+	
 	char s[50][50] ;			// input array
 	bool visited[50][50] ;		// array to hold status of co-ordinate visited/not visited
+	
 	queue < pair< int , int > > q ;	// queue of pairs to hold co-orinates of 2D array for BFS
 	pair< int , int > p ;		// pair to hold a co-ordinate during BFS
 	
