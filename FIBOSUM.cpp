@@ -50,17 +50,17 @@ int main()
 {
     i64 t , n , m , n1 , m1 ;
   
-	  scanf("%llu",&t) ;
+    scanf("%llu",&t) ;
     
-	  while( t-- )
-	  {
+    while( t-- )
+    {
         scanf("%llu%llu",&n,&m) ;
         
-		    n1 = matrix_exponentiation( n + 1 ) ;
-		    m1 = matrix_exponentiation( m + 2 ) ;
+	n1 = matrix_exponentiation( n + 1 ) ;
+	m1 = matrix_exponentiation( m + 2 ) ;
 		
-		    printf("%llu\n", ( ( m1 - n1 ) + MOD ) % MOD ) ;
-	  }
+	printf("%llu\n", ( ( m1 - n1 ) + MOD ) % MOD ) ;
+    }
 	
-	  return 0 ;
+    return 0 ;
 } 
