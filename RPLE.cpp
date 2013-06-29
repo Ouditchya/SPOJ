@@ -7,7 +7,7 @@ using namespace std ;
 
 int main( )
 {
-  int cs , t , n , r , i , r1 , r2 ;
+  	int cs , t , n , r , i , r1 , r2 ;
 	
 	scanf("%d",&t) ;
 	
