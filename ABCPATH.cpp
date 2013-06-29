@@ -48,7 +48,7 @@ int main( )
 		while( !q.empty( ) )
 		{
 			p = q.front( ) ;		// Storing front co-ordinates
-			q.pop( ) ;				// Poping current co-rdinates into queue
+			q.pop( ) ;				// Poping current co-ordinates into queue
 			// Checking all 8 possibilities from each array element
 			for( i = 0 ; i < 8 ; i++ )	
 			{
