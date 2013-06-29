@@ -9,7 +9,7 @@ using namespace std ;
 
 int main( )
 {
-  int n , i , t , c ;
+  	int n , i , t , c ;
 	
 	scanf("%d",&t) ;
 	
