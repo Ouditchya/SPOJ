@@ -1,5 +1,11 @@
 // AC , ALGO : STL
 
+/* 
+	Helpful Link : http://www.cplusplus.com/reference/set/set/ 
+*/
+
+// For any clarifications, contact me at : osinha6792@gmail.com
+
 #include<cstdio>
 #include<set>
 
