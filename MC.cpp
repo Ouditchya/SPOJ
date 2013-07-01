@@ -1,4 +1,10 @@
-// AC , ALGO : DP - Length of LCS.
+// AC , ALGO : Dynamic Programming - Length of LCS.
+
+/*
+	Helpful Link : http://en.wikipedia.org/wiki/Longest_common_subsequence_problem
+*/
+
+// For any clarifications, contact me at : osinha6792@gmail.com
 
 #include<cstdio>
 #include<cstring>
