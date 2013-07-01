@@ -2,21 +2,32 @@
 
 // Source : Adapted from an incomplete solution in TopCoder Forums
 
-#include<cstdio>  		// I/O
+/* Some Helpful Links :
+
+	http://www.cplusplus.com/reference/queue/queue/
+	http://www.cplusplus.com/reference/utility/pair/
+	https://en.wikipedia.org/wiki/Breadth-first_search
+
+*/
+
+// For any clarifications, contact me at : osinha6792@gmail.com
+
+#include<cstdio>  			// I/O
 #include<cstring>			// memset method
 #include<cstdlib>			
 #include<queue>				// queue STL
 #include<utility>			// pair STL
 
-using namespace std ;		// standard namespace
+using namespace std ;			// standard namespace
 
 int main( )
 {
 	int r , c , i , j , x , y , a[50][50] , max , cs = 1 ;
+	
 	// m1 & m2 are arrays holding all possibilities of traversal in 2D array except (0,0)
 	int m1[] = {-1,0,1,1,1,0,-1,-1} , m2[] = {-1,-1,-1,0,1,1,1,0} ;
 	
-	char s[50][50] ;			// input array
+	char s[50][50] ;		// input array
 	bool visited[50][50] ;		// array to hold status of co-ordinate visited/not visited
 	
 	queue < pair< int , int > > q ;	// queue of pairs to hold co-orinates of 2D array for BFS
