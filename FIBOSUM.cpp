@@ -1,5 +1,17 @@
 // AC , ALGO : Matrix Exponentiation , Number Theory.
 
+/* Some Helpful Links :
+
+	http://en.wikipedia.org/wiki/Exponentiation_by_squaring
+	http://comeoncodeon.wordpress.com/2011/05/08/recurrence-relation-and-matrix-exponentiation/
+	http://zobayer.blogspot.in/2010/11/matrix-exponentiation.html
+	http://en.wikipedia.org/wiki/Fibonacci_number
+	http://mathworld.wolfram.com/FibonacciNumber.html
+
+*/
+
+// For any clarifications, contact me at : osinha6792@gmail.com
+
 #include<cstdio>
 #include<cmath>
 
