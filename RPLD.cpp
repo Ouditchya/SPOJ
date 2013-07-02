@@ -1,5 +1,14 @@
 // AC , ALGO : STL
 
+/*	Some Helpful Links :
+
+	http://www.cplusplus.com/reference/set/set/
+	http://www.cplusplus.com/reference/utility/pair/
+	
+*/
+
+// For any clarifications, contact me at : osinha6792@gmail.com
+
 #include<cstdio>
 #include<set>
 #include<utility>
@@ -8,7 +17,7 @@ using namespace std ;
 
 int main( )
 {
-  int t , n , r , student_id , subject_code , cs , i ;
+  	int t , n , r , student_id , subject_code , cs , i ;
 	
 	scanf("%d",&t) ;
 	
