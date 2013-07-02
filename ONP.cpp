@@ -1,4 +1,10 @@
-// AC , ALGO : STACK , POSTFIX
+// AC , ALGO : Stack, Postfix Expression.
+
+/*
+    Helpful Link : http://en.wikipedia.org/wiki/Reverse_Polish_notation
+*/
+
+// For any clarifications, contact me at : osinha6792@gmail.com
 
 #include<iostream>
 #include<cstring>
