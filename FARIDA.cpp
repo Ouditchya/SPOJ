@@ -1,5 +1,16 @@
 // AC , ALGO : Simple DP
 
+/* Some Helpful Links :
+
+	http://en.wikipedia.org/wiki/Dynamic_programming
+	http://people.csail.mit.edu/bdean/6.046/dp/
+	http://www.codechef.com/wiki/tutorial-dynamic-programming
+	http://www.cs.miami.edu/~burt/learning/Csc517.101/workbook/recurrence_dynprog.html
+
+*/
+
+// For any clarifications, contact me at : osinha6792@gmail.com
+
 #include<cstdio>
 #include<algorithm>
 
