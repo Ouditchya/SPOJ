@@ -53,6 +53,7 @@ int main()
     	ans = ( a + b + c + d ) % MOD ;
 		
     	printf("%lld\n",ans) ;
+	
 	scanf("%lld %lld",&n,&k) ;
   }
 	
