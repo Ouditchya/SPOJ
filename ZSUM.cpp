@@ -23,38 +23,38 @@ int_64 simple_exponentiation( int_64 a , int_64 b )
 {
   int_64 x = 1 , y = a ;
 	
-  while( b > 0 )
-	{
-		if( b % 2 == 1 )
-			x = ( x * y ) % MOD ;
-		y = ( y * y ) % MOD ;
-		b /= 2 ;
-	}
+  while( b )
+  {
+	if( b & 1 )
+		x = ( x * y ) % MOD ;
+	y = ( y * y ) % MOD ;
+	b >>= 1 ;
+  }
 	
   return x % MOD ;
 }
 
 int main()
 {
-	int_64 n , k , a , b , c , d , ans ;
+  int_64 n , k , a , b , c , d , ans ;
 	
   scanf("%lld%lld",&n,&k) ;
 	
   while( n != 0 && k != 0 )
-	{
-		a = simple_exponentiation( n , k ) ;
-		b = simple_exponentiation( n - 1 , k ) ;
-		b = ( b * 2 ) % MOD ;
+  {
+	a = simple_exponentiation( n , k ) ;
+	b = simple_exponentiation( n - 1 , k ) ;
+	b = ( b * 2 ) % MOD ;
 		
-    c = simple_exponentiation( n , n ) ;
-		d = simple_exponentiation( n - 1, n - 1 ) ;
-		d = ( d * 2 ) % MOD ;
+    	c = simple_exponentiation( n , n ) ;
+	d = simple_exponentiation( n - 1, n - 1 ) ;
+	d = ( d * 2 ) % MOD ;
 		
-    ans = ( a + b + c + d ) % MOD ;
+    	ans = ( a + b + c + d ) % MOD ;
 		
-    printf("%lld\n",ans) ;
-		scanf("%lld %lld",&n,&k) ;
-	}
+    	printf("%lld\n",ans) ;
+	scanf("%lld %lld",&n,&k) ;
+  }
 	
   return 0 ;
 }
