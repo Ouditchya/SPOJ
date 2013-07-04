@@ -22,7 +22,7 @@ vector< pair< int , int > > v ;
 
 int main( )
 {
-  int i , j , x , y , X , Y , n1 , n2 , m1 , m2 , check ;
+  	int i , j , x , y , X , Y , n1 , n2 , m1 , m2 , check ;
 	
 	scanf("%d %d",&n1,&n2) ;
 	
