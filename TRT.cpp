@@ -44,7 +44,7 @@ int max( int a , int b ) { return ( a > b ? a : b ) ; }
 
 int solve( int a , int b ) 
 {
-  int &ans = interval[a][b] ;
+  	int &ans = interval[a][b] ;
 	
 	if( ans )
 		return ans ;
