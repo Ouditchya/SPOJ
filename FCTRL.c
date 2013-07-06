@@ -13,33 +13,33 @@
 int main()
 {
   long long *arr , num ;
-	int i = 0 , j , ctr , temp , sum , now , p ;
+  int i = 0 , j , ctr , temp , sum , now , p ;
 	
   scanf("%lld",&num) ;
 	
   arr = ( long long * )malloc( num * sizeof( long long ) ) ;
 	
   do
-	{
-		scanf("%d",(arr+i)) ;
-		i++ ;
-	}	while( i != num ) ;
-	printf("\n") ;
+  {
+	scanf("%d",(arr+i)) ;
+	i++ ;
+  } while( i != num ) ;
+  printf("\n") ;
 	
   for( j = 0 ; j <= i - 1 ; j++ )
+  {
+	ctr = 1 ;
+	sum = 0 ;
+	p = 5 ;
+	temp = *(arr+j) ;
+	while( ( now = temp / p ) != 0 )
 	{
-		ctr = 1 ;
-		sum = 0 ;
-		p = 5 ;
-		temp = *(arr+j) ;
-		while( ( now = temp / p ) != 0 )
-		{
-			sum += now ;
-			p *= 5 ;
-			ctr++ ;
-		}
-		printf("%d\n",sum) ;
+		sum += now ;
+		p *= 5 ;
+		ctr++ ;
 	}
+	printf("%d\n",sum) ;
+  }
 	
   return 0 ;
 }
