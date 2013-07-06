@@ -40,7 +40,7 @@ inline int inp( )
 
 int treats[MAX] , interval[MAX][MAX] , n ; 
 
-int max( int a , int b ) { return ( a > b ? a : b ) ; } 
+inline int max( int a , int b ) { return ( a > b ? a : b ) ; } 
 
 int solve( int a , int b ) 
 {
