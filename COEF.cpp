@@ -14,7 +14,7 @@ using namespace std ;
 
 int main( )
 {
-  long long fact[13] , num , denom ;
+  	long long fact[13] , num , denom ;
 	int i , n , k , coeff ;
 	fact[0] = 1 ;
 	
