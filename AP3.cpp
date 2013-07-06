@@ -1,4 +1,4 @@
-// AC , ALGO : Math
+// AC , ALGO : High School Maths.
 
 #include<cstdio>
 #include<cmath>
