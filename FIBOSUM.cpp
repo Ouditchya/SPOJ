@@ -23,7 +23,7 @@ using namespace std ;
 
 i64 matrix_exponentiation( i64 ex )
 {
-    i64 a[2][2] = { { 1 , 1 } , { 1 , 0 } } , foo[2] = { 1 , 0 } , temp[2][2] , i[2][2] = { { 1 , 0 } , { 0 , 1 } } ;
+    i64 a[2][2] = { { 1 , 1 } , { 1 , 0 } } , temp[2][2] , i[2][2] = { { 1 , 0 } , { 0 , 1 } } ;
     if( ex == 0 )
         return 0 ;
     else if( ex == 1 )
