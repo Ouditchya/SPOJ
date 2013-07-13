@@ -36,10 +36,7 @@ int main( )
                 
                 sort( a , a + n ) ;
                 
-                ctr = 1 ;
-                k = 0 ;
-                
-                for( i = 1 ; i <= n ; i++ )
+                for( k = 0 , ctr = i = 1 ; i <= n ; i++ )
                 {
                         if( a[i].second >= a[k].first )
                         {
