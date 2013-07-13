@@ -1,5 +1,7 @@
 // AC , ALGO : High School Maths.
 
+// For any clarifications, contact me at : osinha6792@gmail.com
+
 #include<cstdio>
 #include<cmath>
 
@@ -15,7 +17,7 @@ int main( )
     
     while( test_cases-- )
     {
-        scanf("%lf%lf%lf",&x,&y,&z) ;
+        scanf("%lf %lf %lf",&x,&y,&z) ;
         
         i = 3.5 * x + 2.5 * y + z ;
         k = i * i ;
