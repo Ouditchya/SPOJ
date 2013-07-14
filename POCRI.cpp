@@ -1,4 +1,4 @@
-// AC , ALGO : Math, Josephus problem.
+// AC , ALGO : Maths, Josephus problem.
 
 /* Some Helpful Links :
 
@@ -15,7 +15,7 @@ using namespace std ;
 
 int main( )
 {
-  int r , i , n , k , id ;
+  	int r , i , n , k , id ;
 
 	while( scanf("%d",&n) , n != 0 )
 	{
