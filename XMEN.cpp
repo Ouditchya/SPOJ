@@ -1,5 +1,13 @@
 // AC, ALGO : Dynamic Programming, Longest Increasing Subsequence. 
 
+/* Approach( from SPOJ Forum ) :
+
+ "relabel the numbers in wolverine array, with their corresponding indices in the magneto array. 
+ This way the LIS of my new array with relabelled indices will be equal to the length of the LCS of 
+ magneto and wolverine arrays."
+
+*/
+
 /* Some Helpful Links :
 
   http://en.wikipedia.org/wiki/Longest_increasing_subsequence
