@@ -24,7 +24,7 @@ int main( )
         
         while( t-- )
         {
-                scanf("%lf%lf%lf",&d,&e,&f) ;
+                scanf("%lf %lf %lf",&d,&e,&f) ;
                 
                 area = ( ROOT_3 * ( d * d + e * e + f * f ) ) / 8 ;
                 s = ( d + e + f ) / 2 ;
