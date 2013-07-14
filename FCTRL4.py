@@ -1,4 +1,4 @@
-# AC , ALGO : Math, Big Integer.
+# AC , ALGO : Maths, Big Integer.
 
 # Helpful Link : http://oeis.org/A008904
 
