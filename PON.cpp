@@ -5,6 +5,8 @@
   http://community.topcoder.com/tc?module=Static&d1=tutorials&d2=primalityTesting
   http://en.wikipedia.org/wiki/Primality_test
   http://en.wikipedia.org/wiki/Miller%E2%80%93Rabin_primality_test
+  http://en.wikipedia.org/wiki/Bitwise_operation
+  http://publib.boulder.ibm.com/infocenter/comphelp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8a.doc%2Flanguage%2Fref%2Fbitshe.htm
 
 */
 
@@ -44,7 +46,7 @@ bool Fermat( int64 p , int iterations ) ;
 
 int main()
 {
-  int64 n ;
+  	int64 n ;
 	int t ;
 	
 	t = inp() ;
@@ -65,7 +67,7 @@ int64 mod_exponentiation( int64 a , int64 b , int64 c )
 {
 	int64 x = 1 , y = b ;
 	
-  while( b )
+  	while( b )
 	{
 		if( b & 1 )
 			x = mullmod( x , y , c ) ;				// x = ( x * y ) % c ;
@@ -73,14 +75,14 @@ int64 mod_exponentiation( int64 a , int64 b , int64 c )
 		b >>= 1 ;
 	}
 	
-  return x % c ;
+  	return x % c ;
 }
 
 int64 mullmod( int64 a , int64 b , int64 c )
 {
 	int64 x = 0 , y = a % c ;
 	
-  while( b )
+  	while( b )
 	{
 		if( b & 1 )
 			x = ( x + y ) % c ;
@@ -88,7 +90,7 @@ int64 mullmod( int64 a , int64 b , int64 c )
 		b >>= 1 ;
 	}
 	
-  return x % c ;
+  	return x % c ;
 }
 
 bool Miller( int64 p , int iterations )
@@ -98,28 +100,28 @@ bool Miller( int64 p , int iterations )
 	if( p != 2 && p % 2 == 0 )
 		return false ;
 	
-  int64 s = p - 1 , a , mod , temp ;
+  	int64 s = p - 1 , a , mod , temp ;
 	int i ;
 	
-  while( s % 2 == 0 )
+  	while( s % 2 == 0 )
 		s >>= 1 ;
 	
-  for( i = 0 ; i < iterations ; i++ )
+  	for( i = 0 ; i < iterations ; i++ )
 	{
 		a = rand() % ( p - 1 ) + 1 ;
 		temp = s ;
 		
-    mod = mod_exponentiation( a , temp , p ) ;
+    		mod = mod_exponentiation( a , temp , p ) ;
 		
-    while( temp != p - 1 && mod != 1 && mod != p - 1 )
+    		while( temp != p - 1 && mod != 1 && mod != p - 1 )
 		{
 			mod = mullmod( mod , mod , p ) ;
 			temp <<= 1 ;
 		}
 		
-    if( mod != p - 1 && temp % 2 == 0 )
+    		if( mod != p - 1 && temp % 2 == 0 )
 			return false ;
 	}
 	
-  return true ;
+  	return true ;
 }
