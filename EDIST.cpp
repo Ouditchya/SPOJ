@@ -2,10 +2,8 @@
 
 /* Some Helpful Links :
 
-http://en.wikipedia.org/wiki/Dynamic_programming
-http://people.csail.mit.edu/bdean/6.046/dp/
-http://www.codechef.com/wiki/tutorial-dynamic-programming
-http://www.cs.miami.edu/~burt/learning/Csc517.101/workbook/recurrence_dynprog.html
+	http://en.wikipedia.org/wiki/Edit_distance
+	http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/
 
 */
 
