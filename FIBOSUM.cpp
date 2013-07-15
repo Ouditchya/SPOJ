@@ -1,4 +1,4 @@
-// AC , ALGO : Matrix Exponentiation , Number Theory.
+// AC , ALGO : Matrix Exponentiation, Number Theory.
 
 /* Some Helpful Links :
 
