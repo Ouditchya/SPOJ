@@ -1,4 +1,4 @@
-// AC , ALGO : BFS on a grid.
+// AC , ALGO : Graph Theory : BFS on a grid.
 
 // Source : Adapted from an incomplete solution in TopCoder Forums
 
@@ -82,6 +82,7 @@ int main( )
 				}
 			}
 		}
+		
 		printf("Case %d: %d\n",cs++,max) ;
 	}
 	
