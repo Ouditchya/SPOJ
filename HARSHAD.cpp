@@ -1,4 +1,4 @@
-// AC , ALGO : Graph Theory : Number Theory, Prime Numbers.
+// AC, ALGO : Graph Theory : Number Theory, Prime Numbers.
 
 /* Some Helpful Links :
 
@@ -43,7 +43,7 @@ inline int inp()
 
 int sum_digits( int n )
 {
-  int m = n , sum = 0 ;
+  	int m = n , sum = 0 ;
 	
 	while( m != 0 )
 	{
@@ -56,7 +56,7 @@ int sum_digits( int n )
 
 int main()
 {
-  for( z = 0 ; z < limit ; z++ )
+  	for( z = 0 ; z < limit ; z++ )
 		sieve[z] = false ;
 	for( x = 1 ; x <= root ; x++ )
 	{
