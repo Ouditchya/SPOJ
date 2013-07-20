@@ -19,7 +19,7 @@ using namespace std ;
 
 typedef long long int_64 ;
 
-map<int_64, int_64> h ;
+map< int_64 , int_64 > h ;
 
 inline int_64 dp( int_64 n )
 {
