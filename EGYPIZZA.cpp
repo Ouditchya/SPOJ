@@ -8,7 +8,7 @@ using namespace std ;
 
 int main( )
 {
-  int n , s[5] , a , b , i ;
+  	int n , s[5] , a , b , i ;
 	
 	while( ~scanf("%d",&n) )
 	{
