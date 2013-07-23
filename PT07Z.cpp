@@ -2,7 +2,7 @@
 
 /* Idea :
   1. Run a bfs from root S ( assumed node 1 ) to find the farthest node u. Now new S = u.
-  2. Again run a bfs from the farthest node u and found a new farthest node v.
+  2. Again run a bfs from the farthest node u and find a new farthest node v.
   3. The path from the node u and v is the longest path in this tree.
 */
 
