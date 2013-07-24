@@ -21,7 +21,7 @@ using namespace std ;
 
 inline int num_dgt( int n )
 {
-  int c = 0 ;
+  	int c = 0 ;
 	
 	if( n == 0 )
 		return 1 ;
