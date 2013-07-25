@@ -26,7 +26,7 @@ using namespace std ;
 
 int main( )
 {
-  int n , i , a , m , sum ;
+  	int n , i , a , m , sum ;
 
 	while( n = inp( ) )
 	{
