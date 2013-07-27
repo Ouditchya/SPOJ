@@ -10,10 +10,10 @@ def gcd( a , b ):
     else:
         return gcd( b , a % b )
  
-t = int(input())
+t = int( input( ) )
 while t != 0:
-    s = input()
-    a , b = (int(x) for x in s.split())
+    s = input( )
+    a , b = ( int(x) for x in s.split( ) )
     c = gcd( a , b )
-    print(c)
+    print( c )
     t = t - 1
