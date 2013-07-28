@@ -1,4 +1,4 @@
-// AC , ALGO : Maths, Josephus problem.
+// AC, ALGO : Maths, Josephus problem.
 
 /* Some Helpful Links :
 
