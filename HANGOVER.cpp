@@ -12,7 +12,7 @@ int main( )
     while( scanf("%lf",&n) && !n )
     {
         for( sum = 0 , i = 2 ; sum <= n ; i++ )
-            sum += 1 / ( long double ) i ;
+            sum += 1 / ( double ) i ;
         
         printf("%d card(s)\n",i-2) ;
     }
