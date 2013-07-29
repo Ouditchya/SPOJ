@@ -7,7 +7,7 @@ using namespace std ;
 
 int main( )
 {
-  char key[25] , text[2000] ;
+  	char key[25] , text[2000] ;
 	int i , j , k , l , key_len , text_len , var ;
 	
 	while( ~scanf("%s %s",key,text) )
