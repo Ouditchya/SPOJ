@@ -3,7 +3,7 @@ SPOJ
 
 My SPOJ Solutions
 
-Total : 50
+Total : 51
 
 This is a list of some of my solutions. Some of these may be incorrect. 
 Don't directly copy the solution, you won't learn anything. I've trid to provide some useful links to some problems. 
