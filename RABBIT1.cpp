@@ -65,11 +65,11 @@ int main( )
   
     
     for( scanf("%llu",&t) ; t ; t-- )
-	{
+    {
         scanf("%llu %llu",&n,&m) ;
         MOD = 1 << m ;
-		printf("%llu\n",matrix_exponentiation( n + 1 )) ;
-	}
+	printf("%llu\n",matrix_exponentiation( n + 1 )) ;
+    }
 	
     return 0 ;
 } 
