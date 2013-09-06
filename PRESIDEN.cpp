@@ -15,7 +15,7 @@ using namespace std ;
  
 int main( )
 {
-    int t , c , v , i , j ;
+        int t , c , v , i , j ;
         
         scanf("%d",&t) ;
         
