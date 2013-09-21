@@ -6,8 +6,9 @@
 
 // For any clarifications, contact me at : osinha6792@gmail.com
 
-#include<iostream>
-#include<cstring>
+#include <iostream>
+#include <cstring>
+#include <cstdio>
 
 using namespace std ;
 
