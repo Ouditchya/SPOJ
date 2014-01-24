@@ -63,7 +63,7 @@ using namespace std;
 inline i63 inp_ll()
 {
     i63 n = 0, s = 1;
-	  char p = get();
+    char p = get();
     if( p == '-' )	s = -1;
     while( ( p < '0' || p > '9' ) && p != EOF && p != '-' )	p = get();
     if( p == '-' )	s = -1, p = get();
