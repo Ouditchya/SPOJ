@@ -1,4 +1,4 @@
-// AC, ALGO: Brute Force, High School Maths - Co-ordinate Geometry.
+// AC, ALGO: Brute Force, High School Maths.
 
 /* 
   Helpful Link: http://www.cut-the-knot.org/Curriculum/Calculus/StraightLine.shtml
@@ -63,7 +63,7 @@ using namespace std;
 inline int inp_i()
 {
     int n = 0, s = 1;
-	char p = get();
+    char p = get();
     if( p == '-' )	s = -1;
     while( ( p < '0' || p > '9' ) && p != EOF && p != '-' )	p = get();
     if( p == '-' )	s = -1, p = get();
